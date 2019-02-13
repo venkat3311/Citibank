@@ -1,5 +1,5 @@
 Feature: Login functionality
-
+@login
   Scenario: user login
  Given user is already on Login Page
  And title should be "BriteErp"
