@@ -1,4 +1,4 @@
-package com.cybertek.utilities;
+package utilities;
 
 public interface ApplicationConstants {
     String INVOICING = "Invoicing";
