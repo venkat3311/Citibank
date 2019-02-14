@@ -1,4 +1,4 @@
-package runners;
+package com.CucumberFramework.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber",
         features = "src/test/resources/features",
         glue = "step_definitions",
-        tags = "@amazon",
+        tags = "@wip",
         dryRun = false
 
 )

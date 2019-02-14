@@ -1,6 +1,4 @@
-package step_definitions;
+package com.CucumberFramework.step_definitions;
 
 public class HomePageStepDefinitions {
-
-
 }
