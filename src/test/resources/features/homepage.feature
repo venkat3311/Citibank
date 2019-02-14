@@ -1,4 +1,6 @@
 Feature: Home page
+
+
   Scenario: User clicks the link
     Given user is on the homepage
     When user clicks on sign in button
