@@ -1,23 +1,28 @@
 package com.CucumberFramework.step_definitions;
 
+import com.CucumberFramework.utilities.ConfigurationReader;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import utilities.Driver;
+import com.CucumberFramework.utilities.Driver;
+import org.openqa.selenium.WebDriver;
 
 
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
+    protected WebDriver driver;
+
     @Before
     public void setUp(){
 
+        driver = Driver.getDriver();
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
         Driver.getDriver().manage().window().maximize();
+        driver.get(ConfigurationReader.getProperty("url"));
     }
 
     @After

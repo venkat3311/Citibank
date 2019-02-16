@@ -1,18 +1,41 @@
 package com.CucumberFramework.pages;
 
+
+
+import com.CucumberFramework.utilities.Driver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class JournalsAuditPage extends TestBase {
+public class JournalsAuditPage  {
 
     public JournalsAuditPage(){
 
-        PageFactory.initElements(utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
-//    @FindBy(xpath = "//a[@href=\"/web#menu_id=199&action=\"]")
-//    public WebElement invoicingLink;
+    @FindBy(linkText="BriteErpDemo")
+    public WebElement database;
+
+    @FindBy(id="login")
+    public WebElement email;
+
+    @FindBy(id = "password")
+    public WebElement password;
+
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement loginButton;
+
+
+
+    public void login(String usr, String pass) {
+        database.click();
+        email.sendKeys(usr);
+        password.sendKeys(pass);
+        loginButton.click();
+    }
 
     @FindBy(linkText = "Invoicing")
     public WebElement invoicingLink;

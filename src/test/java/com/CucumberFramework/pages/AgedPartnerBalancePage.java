@@ -1,12 +1,15 @@
 package com.CucumberFramework.pages;
 
+import com.CucumberFramework.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AgedPartnerBalancePage {
-    public AgedPartnerBalancePage(){
-        PageFactory.initElements(utilities.Driver.getDriver(), this);
+
+    public  AgedPartnerBalancePage(){
+
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(linkText = "Invoicing")
@@ -47,5 +50,3 @@ public class AgedPartnerBalancePage {
 
 
 }
-
-
