@@ -1,4 +1,4 @@
-package step_definitions;
+package com.CucumberFramework.step_definitions;
 
 import com.CucumberFramework.utilities.ConfigurationReader;
 import cucumber.api.Scenario;

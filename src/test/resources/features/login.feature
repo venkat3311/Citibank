@@ -1,23 +1,24 @@
 Feature: Login functionality
-@login
-  Scenario: user login
- Given user is already on Login Page
- And title should be "BriteErp"
- Then user selects BriteErpDemo
- Then user enters "Lunch_Invoicing_User3@info.com" and "LD686gfX24"
- Then user clicks on Log in button
- Then channel_inbox page should be displayed
+@wip
+  Scenario: Test WebApplication is up and running
+  Given the user opens the browser
+  When the user goes to the website
+  Then the title should be displayed
+  And the page should contain links to databases
+  |BriteErp    |
+  |BriteErpDemo|
+  |Test        |
+@wip
+  Scenario Outline: Login
+    Given the user opens the browser
+    When the user clicks on BriteErpDemo
+    And the user enters valid <email> and <password>
+    And the user clicks on Login button
+    Then the url is correct
+    And the title should be displayed
 
-  Scenario: manager login
-    Given user is already on Login Page
-    And title should be "BriteErp"
-    Then user selects BriteErpDemo
-    Then user enters "Lunch_InvoicingManager3@info.com" and "LD686gfX24"
-    Then user clicks on Log in button
-    Then channel_inbox page should be displayed
 
-  Scenario Outline: BriteERP Login Test Scenario
-Examples:
+    Examples:
 |    username                     | password   |
 |Lunch_InvoicingManager3@info.com | LD686gfX24 |
 |Lunch_Invoicing_User@info.com    | LD686gfX26 |

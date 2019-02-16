@@ -1,30 +1,33 @@
 package com.CucumberFramework.utilities;
 
-public interface ApplicationConstants {
-    String INVOICING = "Invoicing";
+public class ApplicationConstants {
+    public static final String INVOICING = "Invoicing";
 
-    String SALES = "MasterData";
-    String DOCUMENTS = "Documents";
-    String CUSTOMER_INVOICES = "Customer Invoices";
-    String CUSTOMER_CREDIT_NOTES = "Customer Credit Notes";
-    String PAYMENTS = "Payments";
-    String MASTER_DATA = "Master Data";
+    public static final String SALES = "MasterData";
+    public static final String DOCUMENTS = "Documents";
+    public static final String CUSTOMER_INVOICES = "Customer Invoices";
+    public static final String CUSTOMER_CREDIT_NOTES = "Customer Credit Notes";
+    public static final String PAYMENTS = "Payments";
+    public static final String MASTER_DATA = "Master Data";
 
-    String PURCHASES = "VendorBills";
-    String VENDOR_BILLS = "Vendor Bills - Odoo";
-    String VENDOR_CREDIT_NOTES = "Vendor Credit Notes - Odoo";
+    public static final String PURCHASES = "VendorBills";
+    public static final String VENDOR_BILLS = "Vendor Bills - Odoo";
+    public static final String VENDOR_CREDIT_NOTES = "Vendor Credit Notes - Odoo";
 
-    String REPORTING = "Reporting";
-    String MANAGEMENT = "Management";
-    String PDF_REPORTS = "PDF Reports";
+    public static final String REPORTING = "Reporting";
+    public static final String MANAGEMENT = "Management";
+    public static final String PDF_REPORTS = "PDF Reports";
 
-    String CONFIGURATION = "Configuration";
-    String ACCOUNTING = "Accounting";
+    public static final String CONFIGURATION = "Configuration";
+    public static final String ACCOUNTING = "Accounting";
 
-    String EXPECTED_INV = "New";
-    String INVOICE_RESULT = "Invoice Created";
+    public static final String EXPECTED_INV = "New";
+    public static final String INVOICE_RESULT = "Invoice Created";
 
-    String EXPECTED_NOTE = "New";
+    public static final String EXPECTED_NOTE = "New";
+
+
+
 
 
 }
