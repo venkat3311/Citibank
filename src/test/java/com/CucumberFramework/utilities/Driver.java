@@ -1,4 +1,4 @@
-package utilities;
+package com.CucumberFramework.utilities;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -17,6 +17,7 @@ public class Driver {
     }
 
     private static WebDriver driver;
+
 
     public static WebDriver getDriver() {
         if (driver == null) {

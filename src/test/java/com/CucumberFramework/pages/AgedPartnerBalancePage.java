@@ -1,14 +1,14 @@
-package com.BriteERP.page;
+package com.CucumberFramework.pages;
 
-import com.BriteERP.utilities.Driver;
-import com.BriteERP.utilities.TestBase;
+import com.CucumberFramework.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AgedPartnerBalancePage extends TestBase {
+public class AgedPartnerBalancePage {
 
-    public AgedPartnerBalancePage(){
+    public  AgedPartnerBalancePage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

@@ -1,4 +1,4 @@
-package utilities;
+package com.CucumberFramework.utilities;
 
 public interface ApplicationConstants {
     String INVOICING = "Invoicing";
