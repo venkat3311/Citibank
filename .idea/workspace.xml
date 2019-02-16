@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5eeed9-900e-4ca6-a10c-78a5b66ff1d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cucumbertestNGautomation/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cucumbertestNGautomation/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/CucumberFramework/step_definitions/HomePageStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/CucumberFramework/step_definitions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/CucumberFramework/step_definitions/LoginStepDefinitions.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,21 +23,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ChannelInboxPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/PaymentTermsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="85">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +44,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ConfigurationPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Pages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -48,44 +52,52 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/PaymentTerms">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/BrowserUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/ApplicationConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/runners/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/step_definitions/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/pdfReportsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -152,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/pdfReportsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Driver.java" />
       </list>
     </option>
   </component>
@@ -162,10 +175,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="9" />
     <option name="width" value="1906" />
-    <option name="height" value="1047" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,38 +190,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -216,28 +229,61 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberBriteERPAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberBriteERPAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550115984947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550257619342" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -405,17 +451,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1906" height="1047" extended-state="0" />
+    <frame x="9" y="0" width="1906" height="1006" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2654388" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27356446" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.34478807" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
@@ -435,6 +482,11 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/features" />
@@ -459,31 +511,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/AmazonTitle_steps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" />
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/runners/SmokeTestRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/step_definitions/PaymentTerms.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/step_definitions/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumberBriteERPAutomation/pages/MenuPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/HomePageStepDefinitions.java" />
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/step_definitions/HomePageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -538,23 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ConfigurationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ChannelInboxPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/CustomerInvoicesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -575,23 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/MenuTabsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/PurchasesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,30 +617,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Pages.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/PaymentTermsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ChannelInboxPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/ConfigurationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -652,37 +662,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/PurchasesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/TaxReportsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/JournalsAuditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/TestBase.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/runners/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/pages/PaymentTermsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/PaymentTerms">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CucumberFramework/step_definitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
